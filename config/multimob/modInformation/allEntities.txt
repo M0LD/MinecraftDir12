@@ -81,7 +81,6 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
-quark:chest_passenger
 quark:arrow_ender
 quark:arrow_explosive
 quark:arrow_torch
@@ -89,6 +88,7 @@ quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -255,9 +255,9 @@ appliedenergistics2:appeng.entity.entitygrowingcrystal
 appliedenergistics2:appeng.entity.entitysingularity
 appliedenergistics2:appeng.entity.entitychargedquartz
 comforts:_entity_rest
-enderio:primed_charge
 enderio:owl_egg
 enderio:falling_machine
+enderio:primed_charge
 tconstruct:blueslime
 tconstruct:indestructible
 tconstruct:arrow
