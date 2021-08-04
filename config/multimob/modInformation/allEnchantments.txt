@@ -30,11 +30,11 @@ minecraft:mending
 minecraft:vanishing_curse
 endercore:xpboost
 endercore:autosmelt
+enderio:repellent
+enderio:soulbound
 enderio:shimmer
 enderio:witherweapon
 enderio:witherarrow
-enderio:repellent
-enderio:soulbound
 ebwizardry:magic_sword
 ebwizardry:magic_bow
 ebwizardry:flaming_weapon
