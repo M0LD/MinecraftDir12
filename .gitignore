@@ -4,7 +4,6 @@
 /betweenlands_gallery
 /Illegal_Clients
 /llibrary
-/local
 /logs
 /saves
 /screenshots
@@ -20,3 +19,6 @@
 /structurize
 /structures/schematics
 /scripts/.zsrc
+/optionsof.txt
+/optionsshaders.txt
+/local/ftbutilities

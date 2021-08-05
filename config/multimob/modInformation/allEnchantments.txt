@@ -28,13 +28,13 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
-endercore:xpboost
 endercore:autosmelt
+endercore:xpboost
 enderio:repellent
-enderio:soulbound
+enderio:witherarrow
 enderio:shimmer
 enderio:witherweapon
-enderio:witherarrow
+enderio:soulbound
 ebwizardry:magic_sword
 ebwizardry:magic_bow
 ebwizardry:flaming_weapon
