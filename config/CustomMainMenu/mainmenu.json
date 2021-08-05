@@ -33,7 +33,7 @@
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 105,
+            "posY" : 95,
             "width" : 98,
             "height" : 20,
             "action" : 
@@ -47,7 +47,7 @@
         {
             "text" : "menu.quit",
             "posX" : 2,
-            "posY" : 105,
+            "posY" : 95,
             "width" : 98,
             "height" : 20,
             "action" : 
