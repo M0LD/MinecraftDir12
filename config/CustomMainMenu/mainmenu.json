@@ -14,19 +14,6 @@
     
     "buttons":
     {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
         
         "multiplayer":
         {
@@ -41,21 +28,7 @@
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
+
         "options":
         {
             "text" : "menu.options",
@@ -80,20 +53,6 @@
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
             }
         }
     },
