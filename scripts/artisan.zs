@@ -7,7 +7,7 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <ore:logWood>, <ore:plankWood>],
     [<ore:plankWood>, <artisanworktables:workstation:5>, <ore:plankWood>],
     [<ore:ingotIron>, null, <ore:ingotIron>]])
-  .addTool(<ore:artisansHandsaw>, 1)
+  .addTool(<ore:artisansHandsaw>, 5)
   .addOutput(<artisanworktables:workstation:1>)
   .create();
 
@@ -17,8 +17,8 @@ RecipeBuilder.get("carpenter")
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
     [<ore:plateIron>, <artisanworktables:workstation:5>, <ore:plateIron>],
     [<ore:ingotIron>, null, <ore:ingotIron>]])
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansDriver>, 1)
+  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<artisanworktables:workstation:3>)
   .create();
 
@@ -28,8 +28,8 @@ RecipeBuilder.get("carpenter")
     [<ore:blockIron>, <ore:plateCopper>, <ore:blockIron>],
     [<ore:fiberHemp>, <artisanworktables:workstation:5>, <ore:fiberHemp>],
     [<ore:ingotIron>, null, <ore:ingotIron>]])
-  .addTool(<artisanworktables:artisans_framing_hammer_wood>, 1)
-  .addTool(<artisanworktables:artisans_cutters_wood>, 1)
+  .addTool(<artisanworktables:artisans_framing_hammer_wood>, 20)
+  .addTool(<artisanworktables:artisans_cutters_wood>, 5)
   .addOutput(<artisanworktables:workstation:6>)
   .create();
 
@@ -39,8 +39,8 @@ RecipeBuilder.get("carpenter")
     [<minecraft:concrete:11>, <ore:gemTanzanite>, <minecraft:concrete:11>],
     [<ore:obsidian>, <artisanworktables:workstation:5>, <ore:obsidian>],
     [<ore:ingotIron>, null, <ore:ingotIron>]])
-  .addTool(<artisanworktables:artisans_chisel_wood>, 1)
-  .addTool(<artisanworktables:artisans_hammer_wood>, 1)
+  .addTool(<artisanworktables:artisans_chisel_wood>, 20)
+  .addTool(<artisanworktables:artisans_hammer_wood>, 20)
   .addOutput(<artisanworktables:workstation:7>)
   .create();
 
@@ -50,8 +50,8 @@ RecipeBuilder.get("carpenter")
     [<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>],
     [<minecraft:wool:14>, <artisanworktables:workstation:5>, <minecraft:wool:14>],
     [<ore:ingotIron>, null, <ore:ingotIron>]])
-  .addTool(<artisanworktables:artisans_chisel_wood>, 1)
-  .addTool(<artisanworktables:artisans_hammer_wood>, 1)
+  .addTool(<artisanworktables:artisans_chisel_wood>, 40)
+  .addTool(<artisanworktables:artisans_hammer_wood>, 40)
   .addOutput(<artisanworktables:workstation:4>)
   .create();
 
@@ -61,8 +61,8 @@ RecipeBuilder.get("mage")
     [null, <ore:gemTanzanite>, null],
     [<ore:gemTanzanite>, <ebwizardry:magic_crystal>, <ore:gemTanzanite>],
     [null, <ore:enderpearl>, null]])
-  .addTool(<ore:artisansPencil>, 1)
-  .addTool(<ore:artisansGrimoire>, 1)
+  .addTool(<ore:artisansGemCutter>, 200)
+  .addTool(<ore:artisansGrimoire>, 10)
   .addOutput(<waystones:warp_stone>)
   .create();
 
@@ -72,8 +72,8 @@ RecipeBuilder.get("mage")
     [<ebwizardry:magic_crystal>],
     [<ebwizardry:blank_scroll>],
     [<ore:enderpearl>]])
-  .addTool(<ore:artisansPencil>, 1)
-  .addTool(<ore:artisansGrimoire>, 1)
+  .addTool(<ore:artisansPencil>, 2)
+  .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<waystones:return_scroll>)
   .create();
 
@@ -83,8 +83,8 @@ RecipeBuilder.get("mage")
     [null, <ore:enderpearl>, null],
     [<ebwizardry:magic_crystal>, <ebwizardry:blank_scroll>, <ebwizardry:magic_crystal>],
     [null, <ore:enderpearl>, null]])
-  .addTool(<ore:artisansPencil>, 1)
-  .addTool(<ore:artisansGrimoire>, 1)
+  .addTool(<ore:artisansPencil>, 2)
+  .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<waystones:bound_scroll>)
   .create();
 
@@ -94,8 +94,8 @@ RecipeBuilder.get("mage")
     [<ore:enderpearl>, <ebwizardry:magic_crystal>, <ore:enderpearl>],
     [<ebwizardry:blank_scroll>, <ebwizardry:blank_scroll>, <ebwizardry:blank_scroll>],
     [<ore:enderpearl>, <ebwizardry:magic_crystal>, <ore:enderpearl>]])
-  .addTool(<ore:artisansPencil>, 1)
-  .addTool(<ore:artisansGrimoire>, 1)
+  .addTool(<ore:artisansPencil>, 2)
+  .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<waystones:bound_scroll>)
   .setExtraOutputOne(<waystones:warp_scroll>, 0.4)
   .create();
@@ -106,7 +106,7 @@ RecipeBuilder.get("basic")
     [null, null, <improvedbackpacks:tanned_leather>],
     [null, <improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>],
     [<improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>]])
-  .addTool(<ore:artisansNeedle>, 1)
+  .addTool(<ore:artisansNeedle>, 10)
   .addOutput(<openglider:hang_glider_part>)
   .create();
 
@@ -116,7 +116,7 @@ RecipeBuilder.get("basic")
     [<improvedbackpacks:tanned_leather>, null, null],
     [<improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>, null],
     [<improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>, <improvedbackpacks:tanned_leather>]])
-  .addTool(<ore:artisansNeedle>, 1)
+  .addTool(<ore:artisansNeedle>, 10)
   .addOutput(<openglider:hang_glider_part:1>)
   .create();
 
@@ -126,7 +126,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:ingotIron>, null],
     [<ore:ingotIron>, null, <ore:ingotIron>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansFramingHammer>, 50)
   .addOutput(<openglider:hang_glider_part:2>)
   .create();
 
@@ -134,7 +134,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("engineer")
   .setShaped([[<openglider:hang_glider_part>, <openglider:hang_glider_part:2>, <openglider:hang_glider_part:1>]])
   .setSecondaryIngredients([<ore:ingotIron> * 12])
-  .addTool(<ore:artisansDriver>, 1)
+  .addTool(<ore:artisansDriver>, 20)
   .addOutput(<openglider:hang_glider_basic>)
   .setExtraOutputOne(<minecraft:iron_ingot>, 0.8)
   .setExtraOutputTwo(<minecraft:iron_ingot> * 2, 0.5)
@@ -146,7 +146,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<openglider:hang_glider_part>, <openglider:hang_glider_part:2>, <openglider:hang_glider_part:1>]])
   .setSecondaryIngredients([<ore:ingotSteel> * 12])
-  .addTool(<ore:artisansDriver>, 1)
+  .addTool(<ore:artisansDriver>, 40)
   .addOutput(<openglider:hang_glider_advanced>)
   .setExtraOutputOne(<thermalfoundation:material:160>, 0.8)
   .setExtraOutputTwo(<thermalfoundation:material:160> * 2, 0.5)
@@ -156,7 +156,7 @@ RecipeBuilder.get("engineer")
 //Life Dust
 RecipeBuilder.get("blacksmith")
   .setShapeless([<scalinghealth:crystalshard>])
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansHammer>, 25)
   .addOutput(<scalinghealth:heartdust> * 4)
   .create();
 
@@ -164,8 +164,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("jeweler")
   .setShaped([
     [<scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansGemCutter>, 10)
+  .addTool(<ore:artisansHammer>, 20)
   .addOutput(<scalinghealth:crystalshard>)
   .create();
 
@@ -175,8 +175,8 @@ RecipeBuilder.get("mage")
     [<scalinghealth:heartdust>, null, <scalinghealth:heartdust>],
     [<scalinghealth:heartdust>, <ore:gemRuby>, <scalinghealth:heartdust>],
     [null, <scalinghealth:heartdust>, null]])
-  .addTool(<ore:artisansFile>, 1)
-  .addTool(<ore:artisansGrimoire>, 1)
+  .addTool(<ore:artisansFile>, 50)
+  .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<scalinghealth:heartcontainer>)
   .create();
 
@@ -186,8 +186,8 @@ RecipeBuilder.get("mage")
     [<ore:gemQuartz>, <minecraft:dye:15>, <ore:gemQuartz>],
     [<scalinghealth:healingitem>, <scalinghealth:heartdust>, <scalinghealth:healingitem>],
     [<ore:gemQuartz>, <minecraft:potion>.withTag({Potion: "minecraft:healing"}), <ore:gemQuartz>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansNeedle>, 1)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansNeedle>, 25)
   .addOutput(<scalinghealth:healingitem:1>)
   .setExtraOutputOne(<minecraft:glass_bottle>, 1.0)
   .create();
@@ -197,7 +197,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<theoneprobe:probe>],
     [<minecraft:iron_helmet>]])
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansSolderer>, 35)
   .addOutput(<theoneprobe:iron_helmet_probe>.withTag({theoneprobe: 1}))
   .create();
 
@@ -206,7 +206,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<theoneprobe:probe>],
     [<minecraft:golden_helmet>]])
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansSolderer>, 35)
   .addOutput(<theoneprobe:gold_helmet_probe>.withTag({theoneprobe: 1}))
   .create();
 
@@ -215,7 +215,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<theoneprobe:probe>],
     [<minecraft:diamond_helmet>]])
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansSolderer>, 75)
   .addOutput(<theoneprobe:diamond_helmet_probe>.withTag({theoneprobe: 1}))
   .create();
 
@@ -225,8 +225,8 @@ RecipeBuilder.get("engineer")
     [<ore:dustRedstone>],
     [<ore:gemDiamond>],
     [<ore:ingotIron>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansFile>, 1)
+  .addTool(<ore:artisansSolderer>, 40)
+  .addTool(<ore:artisansFile>, 25)
   .addOutput(<theoneprobe:probe>)
   .create();
 
@@ -235,8 +235,8 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<cyberware:eye_upgrades>, <theoneprobe:probe>, <cyberware:eye_upgrades>]])
   .setSecondaryIngredients([<minecraft:redstone> * 16])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansFile>, 1)
+  .addTool(<ore:artisansSolderer>, 75)
+  .addTool(<ore:artisansFile>, 25)
   .addOutput(<theoneprobe:probe_goggles>)
   .setExtraOutputOne(<minecraft:redstone> * 8, 0.8)
   .setExtraOutputTwo(<minecraft:redstone> * 4, 0.5)
@@ -249,8 +249,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotGold>, <mowziesmobs:ice_crystal>, <ore:ingotGold>],
     [<ore:ingotGold>, null, <ore:ingotGold>],
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_ice_melee>)
   .create();
 
@@ -260,8 +260,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotGold>, <mowziesmobs:ice_crystal>, <ore:ingotGold>],
     [<mowziesmobs:ice_crystal>, null, <mowziesmobs:ice_crystal>],
     [<ore:ingotGold>, <mowziesmobs:ice_crystal>, <ore:ingotGold>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_arcane_frost>)
   .create();
 
@@ -271,8 +271,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotGold>, <minecraft:fire_charge>, <ore:ingotGold>],
     [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
     [<ore:ingotGold>, <minecraft:gold_ingot>, <ore:ingotGold>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_combustion>)
   .create();
 
@@ -282,8 +282,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotIron>, <ebwizardry:magic_crystal>, <ore:ingotIron>],
     [<ore:ingotIron>, null, <ore:ingotIron>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_battlemage>)
   .create();
 
@@ -293,8 +293,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotIron>, <ore:ingotManasteel>, <ore:ingotIron>],
     [<ore:ingotManasteel>, null, <ore:ingotManasteel>],
     [<ore:ingotIron>, <ore:ingotManasteel>, <ore:ingotIron>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_siphoning>)
   .create();
 
@@ -304,8 +304,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotGold>, <botania:manaresource:2>, <ore:ingotGold>],
     [<ore:ingotGold>, null, <ore:ingotGold>],
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_condensing>)
   .create();
 
@@ -315,8 +315,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotTitanium>, <ebwizardry:magic_crystal:4>, <ore:ingotTitanium>],
     [<ebwizardry:magic_crystal:4>, <minecraft:fire_charge>, <ebwizardry:magic_crystal:4>],
     [<ore:ingotTitanium>, <ebwizardry:magic_crystal:4>, <ore:ingotTitanium>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 250)
+  .addTool(<ore:artisansCutters>, 320)
   .addOutput(<ebwizardry:ring_soulbinding>)
   .create();
 
@@ -326,8 +326,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotElectricalSteel>, <ebwizardry:magic_crystal:3>, <ore:ingotElectricalSteel>],
     [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_stormcloud>)
   .create();
 
@@ -337,8 +337,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotElectricalSteel>, <ore:ingotGold>, <ore:ingotElectricalSteel>],
     [<ore:ingotGold>, null, <ore:ingotGold>],
     [<ore:ingotElectricalSteel>, <ore:ingotGold>, <ore:ingotElectricalSteel>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_hammer>)
   .create();
 
@@ -348,8 +348,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotSignalum>, <ebwizardry:magic_crystal:7>, <ore:ingotSignalum>],
     [<ore:ingotSignalum>, null, <ore:ingotSignalum>],
     [<ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_seeking>)
   .create();
 
@@ -359,8 +359,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotManganese>, <ebwizardry:magic_crystal:3>, <ore:ingotManganese>],
     [<ebwizardry:magic_crystal:3>, null, <ebwizardry:magic_crystal:3>],
     [<ore:ingotManganese>, <ebwizardry:magic_crystal:3>, <ore:ingotManganese>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_storm>)
   .create();
 
@@ -370,8 +370,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotAlubrass>, <ebwizardry:magic_crystal:3>, <ore:ingotAlubrass>],
     [<ebwizardry:magic_crystal:3>, null, <ebwizardry:magic_crystal:3>],
     [<ore:ingotAlubrass>, <ebwizardry:magic_crystal:3>, <ore:ingotAlubrass>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_lightning_melee>)
   .create();
 
@@ -381,8 +381,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotPlatinum>, <ebwizardry:magic_crystal:2>, <ore:ingotPlatinum>],
     [<ebwizardry:magic_crystal:2>, null, <ebwizardry:magic_crystal:2>],
     [<ore:ingotPlatinum>, <ebwizardry:magic_crystal:2>, <ore:ingotPlatinum>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 190)
+  .addTool(<ore:artisansCutters>, 75)
   .addOutput(<ebwizardry:ring_shattering>)
   .create();
 
@@ -392,8 +392,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>],
     [<ore:ingotPlatinum>, <ore:ingotIron>, <ore:ingotPlatinum>],
     [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_defender>)
   .create();
 
@@ -403,8 +403,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotCopper>, <ore:seedWheat>, <ore:ingotCopper>],
     [<ore:ingotCopper>, null, <ore:ingotCopper>],
     [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_blockwrangler>)
   .create();
 
@@ -414,8 +414,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotCopper>, <ore:gemAmber>, <ore:ingotCopper>],
     [<ore:ingotCopper>, null, <ore:ingotCopper>],
     [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_fire_biome>)
   .create();
 
@@ -425,8 +425,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotArdite>, <ore:slimecrystalMagma>, <ore:ingotArdite>],
     [<minecraft:magma>, null, <minecraft:magma>],
     [<ore:ingotArdite>, <minecraft:magma>, <ore:ingotArdite>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 200)
+  .addTool(<ore:artisansCutters>, 290)
   .addOutput(<ebwizardry:ring_disintegration>)
   .create();
 
@@ -436,8 +436,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotCopper>, <ebwizardry:magic_crystal:1>, <ore:ingotCopper>],
     [<ore:ingotCopper>, null, <ore:ingotCopper>],
     [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 80)
+  .addTool(<ore:artisansCutters>, 120)
   .addOutput(<ebwizardry:ring_meteor>)
   .create();
 
@@ -447,8 +447,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotGold>],
     [<ore:ingotSilver>, null, <ore:ingotSilver>],
     [<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotSilver>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_interdiction>)
   .create();
 
@@ -458,8 +458,8 @@ RecipeBuilder.get("jeweler")
     [<ore:ingotGold>, <ebwizardry:magic_crystal:7>, <ore:ingotGold>],
     [<ore:ingotGold>, null, <ore:ingotGold>],
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]])
-  .addTool(<ore:artisansGemCutter>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansCutters>, 20)
   .addOutput(<ebwizardry:ring_paladin>)
   .create();
 
@@ -469,7 +469,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotTitanium>, null, <ore:ingotTitanium>],
     [null, <ore:ingotTitanium>, null],
     [<ore:ingotTitanium>, null, <ore:ingotTitanium>]])
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansCutters>, 25)
   .addOutput(<cyberware:component:2>)
   .create();
 
@@ -479,8 +479,8 @@ RecipeBuilder.get("engineer")
     [null, <ore:plateSteel>],
     [<ore:plateSteel>, <forge:bucketfilled>.withTag({FluidName: "oil", Amount: 1000})],
     [null, <ore:plateSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 40)
   .addOutput(<cyberware:component:4>)
   .setExtraOutputOne(<minecraft:bucket>, 1.0)
   .create();
@@ -489,8 +489,8 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansFile>, 1)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansFile>, 40)
   .addOutput(<cyberware:component:5>)
   .create();
 
@@ -498,8 +498,8 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:blockCoal>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansFile>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansFile>, 190)
   .addOutput(<minecraft:coal> * 8)
   .setExtraOutputOne(<cyberware:component:6>, 0.15)
   .create();
@@ -510,8 +510,8 @@ RecipeBuilder.get("engineer")
     [null, <ore:ingotIron>, <ore:ingotIron>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
     [<ore:ingotIron>, <ore:ingotIron>, null]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 10)
+  .addTool(<ore:artisansSolderer>, 15)
   .addOutput(<cyberware:component:8>)
   .create();
 
@@ -521,8 +521,8 @@ RecipeBuilder.get("engineer")
     [null, <ore:ingotElectricalSteel>, null],
     [<cyberware:component:5>, <cyberware:component:3>, <cyberware:component:5>],
     [<ore:ingotCopper>, <cyberware:component:6>, <ore:ingotCopper>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 180)
+  .addTool(<ore:artisansSolderer>, 125)
   .addOutput(<cyberware:component:9>)
   .create();
 
@@ -532,8 +532,8 @@ RecipeBuilder.get("engineer")
     [<ore:gemDiamond>, null, null],
     [null, <cyberware:component:6>, null],
     [null, null, <cyberware:component:6>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 280)
+  .addTool(<ore:artisansSolderer>, 190)
   .addOutput(<cyberware:component:7>)
   .create();
 
@@ -543,8 +543,8 @@ RecipeBuilder.get("engineer")
     [null, null, <ore:ingotElectricalSteel>],
     [<ore:ingotSteel>, <cyberware:component:5>, null],
     [<ore:ingotSteel>, <ore:ingotSteel>, null]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 75)
+  .addTool(<ore:artisansSolderer>, 45)
   .addOutput(<cyberware:component>)
   .create();
 
@@ -554,8 +554,8 @@ RecipeBuilder.get("engineer")
     [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>],
     [<cyberware:component:5>, <ore:itemSilicon>, <ore:ingotCopper>],
     [<ore:ingotCopper>, <cyberware:component:5>, <cyberware:component:8>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansSolderer>, 45)
   .addOutput(<cyberware:component:3>)
   .create();
 
@@ -565,8 +565,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotLithium>, <ore:ingotLithium>, null],
     [<ore:ingotLithium>, <minecraft:water_bucket>, null],
     [null, null, <cyberware:component:3>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansSolderer>, 45)
   .addOutput(<cyberware:component:1>)
   .setExtraOutputOne(<minecraft:bucket>, 1.0)
   .create();
@@ -577,8 +577,8 @@ RecipeBuilder.get("engineer")
     [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>],
     [<thermalfoundation:material:160>, <cyberware:component:5>, <thermalfoundation:material:160>],
     [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 25)
   .addOutput(<cyberware:radio_post>)
   .create();
 
@@ -588,8 +588,8 @@ RecipeBuilder.get("engineer")
     [null, <ore:ingotAluminum>, null],
     [<ore:ingotAluminum>, <ore:ingotCobalt>, <ore:ingotAluminum>],
     [null, <ore:ingotSteel>, null]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 25)
   .addOutput(<cyberware:beacon_large>)
   .create();
 
@@ -599,8 +599,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
     [<ore:ingotAluminum>, <ore:chest>, <ore:ingotAluminum>],
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 25)
   .addOutput(<cyberware:component_box>)
   .create();
 
@@ -610,8 +610,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <cyberware:beacon_large>],
     [<ore:ingotAluminum>, <cyberware:component:3>, <ore:ingotAluminum>],
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 25)
   .addOutput(<cyberware:beacon>)
   .create();
 
@@ -621,8 +621,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <thermalfoundation:material:513>, <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 45)
+  .addTool(<ore:artisansSolderer>, 25)
   .addOutput(<cyberware:charger>)
   .create();
 
@@ -633,8 +633,8 @@ RecipeBuilder.get("engineer")
     [null, null, <ore:ingotSteel>],
     [<ore:ingotSteel>, <cyberware:component:3>, <thermalfoundation:material:160>]])
   .setSecondaryIngredients([<thermalfoundation:material:132> * 64, <minecraft:iron_ingot> * 64])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 450)
+  .addTool(<ore:artisansSolderer>, 250)
   .addOutput(<cyberware:engineering_table>)
   .create();
 
@@ -644,8 +644,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <cyberware:cybereyes>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <minecraft:diamond>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:itemSilicon>, <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 190)
+  .addTool(<ore:artisansSolderer>, 240)
   .addOutput(<cyberware:scanner>)
   .create();
 
@@ -654,8 +654,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <cyberware:cybereyes>.withTag({cyberwareQuality: "cyberware.quality.scavenged"}), <ore:ingotSteel>],
     [<ore:ingotSteel>, <minecraft:diamond>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:itemSilicon>, <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 220)
+  .addTool(<ore:artisansSolderer>, 240)
   .addOutput(<cyberware:scanner>)
   .create();
 
@@ -665,8 +665,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <cyberware:component:3>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <cyberware:engineering_table>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 500)
+  .addTool(<ore:artisansSolderer>, 480)
   .addOutput(<cyberware:surgery_chamber>)
   .create();
 
@@ -676,8 +676,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <cyberware:component:3>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <artisanworktables:workstation:5>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <cyberware:cybereyes>, <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 850)
+  .addTool(<ore:artisansSolderer>, 750)
   .addOutput(<cyberware:surgery>)
   .create();
 
@@ -686,8 +686,8 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <cyberware:component:3>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <artisanworktables:workstation:5>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <cyberware:cybereyes>.withTag({cyberwareQuality: "cyberware.quality.scavenged"}), <ore:ingotSteel>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansCutters>, 880)
+  .addTool(<ore:artisansSolderer>, 750)
   .addOutput(<cyberware:surgery>)
   .create();
 
@@ -697,7 +697,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:chest>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]])
-  .addTool(<artisanworktables:artisans_cutters_wood>, 1)
-  .addTool(<artisanworktables:artisans_solderer_wood>, 1)
+  .addTool(<artisanworktables:artisans_cutters_wood>, 45)
+  .addTool(<artisanworktables:artisans_solderer_wood>, 25)
   .addOutput(<cyberware:blueprint_archive>)
   .create();
