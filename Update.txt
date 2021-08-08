@@ -1,0 +1,3 @@
+Open GitBash here in this folder and type :
+
+git pull https://github.com/M0LD/MinecraftDir12.git
