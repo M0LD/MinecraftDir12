@@ -701,3 +701,91 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_solderer_wood>, 25)
   .addOutput(<cyberware:blueprint_archive>)
   .create();
+
+//Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:magic_wand>)
+  .create();
+
+//Fire Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:1>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_fire_wand>)
+  .create();
+
+//Ice Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:2>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_ice_wand>)
+  .create();
+
+//Strom Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:3>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_lightning_wand>)
+  .create();
+
+//Shadow Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:4>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_necromancy_wand>)
+  .create();
+  
+//Forest Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:5>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_earth_wand>)
+  .create();
+
+//Sorcery Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:6>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_sorcery_wand>)
+  .create();
+
+//Healing Wand
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ebwizardry:magic_crystal:7>],
+    [null, <ore:stickWood>, null],
+    [<minecraft:gold_nugget>, null, null]])
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<ebwizardry:novice_healing_wand>)
+  .create();
