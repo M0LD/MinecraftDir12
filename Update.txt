@@ -1,3 +1,9 @@
 Open GitBash here in this folder and type :
 
 git pull https://github.com/M0LD/MinecraftDir12.git
+
+
+
+If you get a Error type :
+
+git stash
