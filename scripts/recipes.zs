@@ -5,5 +5,5 @@
 //Don't touch me!
 //#Add
 recipes.addShaped(<scalinghealth:healingitem>, [[<ore:paper>, <ore:paper>, <ore:paper>],[<scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>], [<ore:paper>, <ore:paper>, <ore:paper>]]);
-recipes.addShaped(<artisanworktables:workstation:5>, [[<minecraft:planks>, <minecraft:crafting_table>, <minecraft:planks>],[null, <minecraft:anvil>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<artisanworktables:workstation:5>, [[<ore:plankWood>, <minecraft:crafting_table>, <ore:plankWood>],[null, <minecraft:anvil>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 //File End

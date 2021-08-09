@@ -789,3 +789,13 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<ebwizardry:novice_healing_wand>)
   .create();
+
+//Engineers Hammer
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:ingotIron>, null],
+    [null, <ore:stickWood>, <ore:ingotIron>],
+    [<ore:stickWood>, null, null]])
+  .addTool(<ore:artisansCutters>, 25)
+  .addOutput(<immersiveengineering:tool>)
+  .create();
