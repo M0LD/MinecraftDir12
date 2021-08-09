@@ -19,3 +19,4 @@ recipes.removeByRecipeName("ebwizardry:wand_necromancy");
 recipes.removeByRecipeName("ebwizardry:wand_earth");
 recipes.removeByRecipeName("ebwizardry:wand_sorcery");
 recipes.removeByRecipeName("ebwizardry:wand_healing");
+recipes.removeByRecipeName("immersiveengineering:tool/hammer");
