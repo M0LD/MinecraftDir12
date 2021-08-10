@@ -3,9 +3,9 @@ updateNotification:true
 differentiateByServerAddress:true
 netherlikeCaveMapAllowed:true
 debug:false
-lighting:false
+lighting:true
 colours:0
-loadChunks:false
+loadChunks:true
 updateChunks:true
 terrainSlopes:2
 terrainDepth:true
