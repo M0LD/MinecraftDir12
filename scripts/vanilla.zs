@@ -5,7 +5,8 @@ val ModsToClear = [
     "cyberware",
     "scalinghealth",
     "theoneprobe",
-    "openglider"
+    "openglider",
+    "ghostexplosives"
 ] as string[];
 for item in ModsToClear{
     recipes.removeByMod(item);
@@ -20,3 +21,5 @@ recipes.removeByRecipeName("ebwizardry:wand_earth");
 recipes.removeByRecipeName("ebwizardry:wand_sorcery");
 recipes.removeByRecipeName("ebwizardry:wand_healing");
 recipes.removeByRecipeName("immersiveengineering:tool/hammer");
+mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0:5>);

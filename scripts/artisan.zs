@@ -799,3 +799,87 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansCutters>, 25)
   .addOutput(<immersiveengineering:tool>)
   .create();
+
+//TNT's
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<minecraft:tnt>])
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<ghostsexplosives:tnt_x1_2> * 2)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:gunpowder>, <ore:sandstone>, <ore:gunpowder>],
+    [<ore:sandstone>, <minecraft:tnt>, <ore:sandstone>],
+    [<ore:gunpowder>, <ore:sandstone>, <ore:gunpowder>]])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_x10>)
+  .create();
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:gunpowder>, <ore:sandstone>, <ore:gunpowder>],
+    [<ore:sandstone>, <ghostsexplosives:tnt_x10>, <ore:sandstone>],
+    [<ore:gunpowder>, <ore:sandstone>, <ore:gunpowder>]])
+  .setSecondaryIngredients([<ore:gunpowder> * 8])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_x100>)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>],
+    [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>],
+    [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>]])
+  .setSecondaryIngredients([<ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_x1000>)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>],
+    [<ghostsexplosives:tnt_x1000>, <nuclearcraft:rtg_uranium>, <ghostsexplosives:tnt_x1000>],
+    [<ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>]])
+  .setSecondaryIngredients([<ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:ingotUraniumOxide> * 64])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_nuclear>)
+  .create();
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <ebwizardry:magic_crystal:1>, null],
+    [<ebwizardry:magic_crystal:1>, <minecraft:tnt>, <ebwizardry:magic_crystal:1>],
+    [null, <ebwizardry:magic_crystal:1>, null]])
+  .setSecondaryIngredients([<ore:gunpowder> * 64])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_flaming>)
+  .create();
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <ebwizardry:magic_crystal:3>, null],
+    [<ebwizardry:magic_crystal:3>, <minecraft:tnt>, <ebwizardry:magic_crystal:3>],
+    [null, <ebwizardry:magic_crystal:3>, null]])
+  .setSecondaryIngredients([<ore:gunpowder> * 64])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_lightning>)
+  .create();
+  
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<minecraft:tnt>]])
+  .setSecondaryIngredients([<ore:gunpowder> * 32, <minecraft:water_bucket>])
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<ghostsexplosives:tnt_50_50>)
+  .create();
+
+  RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:gemLapis>, <ore:toolShears>],
+    [<ore:ingotIron>, null, <ore:gemLapis>],
+    [null, <ore:ingotIron>, null]])
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<ghostsexplosives:defuser>)
+  .create();
