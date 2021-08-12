@@ -6,7 +6,7 @@ val ModsToClear = [
     "scalinghealth",
     "theoneprobe",
     "openglider",
-    "ghostexplosives"
+    "ghostsexplosives"
 ] as string[];
 for item in ModsToClear{
     recipes.removeByMod(item);
