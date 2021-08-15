@@ -23,3 +23,4 @@ recipes.removeByRecipeName("ebwizardry:wand_healing");
 recipes.removeByRecipeName("immersiveengineering:tool/hammer");
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0:5>);
+recipes.removeByRecipeName("minecraft:armor_stand");
