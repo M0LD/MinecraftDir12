@@ -831,7 +831,7 @@ RecipeBuilder.get("blacksmith")
     [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>],
     [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>],
     [<ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>, <ghostsexplosives:tnt_x100>]])
-  .setSecondaryIngredients([<ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64])
+  .setSecondaryIngredients([<ghostsexplosives:gunpowder_charged> * 64, <ghostsexplosives:gunpowder_charged> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64])
   .addTool(<ore:artisansCutters>, 45)
   .addOutput(<ghostsexplosives:tnt_x1000>)
   .create();
@@ -841,7 +841,7 @@ RecipeBuilder.get("blacksmith")
     [<ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>],
     [<ghostsexplosives:tnt_x1000>, <nuclearcraft:rtg_uranium>, <ghostsexplosives:tnt_x1000>],
     [<ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>, <ghostsexplosives:tnt_x1000>]])
-  .setSecondaryIngredients([<ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:ingotUraniumOxide> * 64])
+  .setSecondaryIngredients([<ghostsexplosives:gunpowder_charged> * 64, <ghostsexplosives:gunpowder_charged> * 64, <ghostsexplosives:gunpowder_charged> * 64, <ghostsexplosives:gunpowder_charged> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:gunpowder> * 64, <ore:ingotUraniumOxide> * 64])
   .addTool(<ore:artisansCutters>, 45)
   .addTool(<ore:artisansHammer>, 200)
   .addOutput(<ghostsexplosives:tnt_nuclear>)
@@ -883,4 +883,139 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCutters>, 50)
   .addTool(<ore:artisansHammer>, 20)
   .addOutput(<ghostsexplosives:defuser>)
+  .create();
+
+  RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<ore:blockSkyStone>, <ore:paneGlass>, <ore:blockSkyStone>],
+    [<ore:bookshelf>, <artisanworktables:workstation:5>, <ore:bookshelf>],
+    [<ore:ingotIron>, null, <ore:ingotIron>]])
+  .addTool(<ore:artisansHandsaw>, 200)
+  .addTool(<ore:artisansDriver>, 40)
+  .addOutput(<artisanworktables:workstation:9>)
+  .create();
+
+  RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>],
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <ore:blockIron>],
+    [<ore:ingotIron>, null, <ore:ingotIron>]])
+  .setSecondaryIngredients([<minecraft:gunpowder> * 16])
+  .addTool(<ore:artisansDriver>, 20)
+  .addTool(<ore:artisansCutters>, 60)
+  .addOutput(<ghostsexplosives:bazooka>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [null, <fluxnetworks:flux>, null],
+    [<fluxnetworks:flux>, <ore:itemEnderCrystal>, <fluxnetworks:flux>],
+    [null, <fluxnetworks:flux>, null]])
+  .setFluid(<liquid:ender> * 8000)
+  .addTool(<ore:artisansFile>, 140)
+  .addTool(<ore:artisansCutters>, 25)
+  .addOutput(<fluxnetworks:fluxcore>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [null, null, <fluxnetworks:fluxcore>],
+    [null, <fluxnetworks:flux>, null],
+    [<fluxnetworks:flux>, null, null]])
+  .addTool(<ore:artisansFile>, 250)
+  .addTool(<ore:artisansCutters>, 280)
+  .addOutput(<fluxnetworks:fluxconfigurator>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [<fluxnetworks:flux>, <ore:blockSkyStone>, <fluxnetworks:flux>],
+    [<ore:blockSkyStone>, <fluxnetworks:fluxcore>, <ore:blockSkyStone>],
+    [<fluxnetworks:flux>, <ore:blockSkyStone>, <fluxnetworks:flux>]])
+  .addTool(<ore:artisansFile>, 350)
+  .addTool(<ore:artisansCutters>, 40)
+  .addOutput(<fluxnetworks:fluxblock>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>],
+    [<ore:blockGlass>, <fluxnetworks:fluxcore>, <ore:blockGlass>],
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>]])
+  .setFluid(<liquid:glowstone> * 8000)
+  .addTool(<ore:artisansFile>, 420)
+  .addTool(<ore:artisansCutters>, 280)
+  .addOutput(<fluxnetworks:fluxstorage>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>],
+    [<ore:blockGlass>, <fluxnetworks:fluxstorage>, <ore:blockGlass>],
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>]])
+  .setFluid(<liquid:glowstone> * 8000)
+  .addTool(<ore:artisansFile>, 420)
+  .addTool(<ore:artisansCutters>, 280)
+  .addOutput(<fluxnetworks:herculeanfluxstorage>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>],
+    [<ore:blockGlass>, <fluxnetworks:herculeanfluxstorage>, <ore:blockGlass>],
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>]])
+  .setFluid(<liquid:glowstone> * 8000)
+  .addTool(<ore:artisansFile>, 420)
+  .addTool(<ore:artisansCutters>, 280)
+  .addOutput(<fluxnetworks:gargantuanfluxstorage>)
+  .create();
+
+  RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotDarkSteel>, <cyberware:component:2>, <ore:ingotDarkSteel>],
+    [<cyberware:component:2>, <minecraft:beacon>, <cyberware:component:2>],
+    [<ore:ingotDarkSteel>, <fluxnetworks:fluxcore>, <ore:ingotDarkSteel>]])
+  .addTool(<ore:artisansDriver>, 80)
+  .addTool(<ore:artisansCutters>, 220)
+  .addOutput(<fluxnetworks:fluxplug>)
+  .create();
+
+  RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotDarkSteel>, <cyberware:component:2>, <ore:ingotDarkSteel>],
+    [<cyberware:component:2>, <ore:elvenDragonstone>, <cyberware:component:2>],
+    [<ore:ingotDarkSteel>, <fluxnetworks:fluxcore>, <ore:ingotDarkSteel>]])
+  .addTool(<ore:artisansDriver>, 80)
+  .addTool(<ore:artisansCutters>, 220)
+  .addOutput(<fluxnetworks:fluxpoint>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShapeless([<ore:ingotSteel>, <ghostsexplosives:gunpowder_charged>])
+  .addTool(<ore:artisansHammer>, 50)
+  .addTool(<ore:artisansFramingHammer>, 25)
+  .addOutput(<ghostsexplosives:instant_flint_and_steel>)
+  .create();
+
+  RecipeBuilder.get("chemist")
+  .setShaped([
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxcore>, <fluxnetworks:fluxblock>],
+    [<fluxnetworks:fluxblock>, <cyberware:charger>, <fluxnetworks:fluxblock>],
+    [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>]])
+  .setFluid(<liquid:glowstone> * 8000)
+  .addTool(<ore:artisansDriver>, 600)
+  .addTool(<ore:artisansCutters>, 250)
+  .addOutput(<fluxnetworks:fluxcontroller>)
+  .create();
+
+  RecipeBuilder.get("jeweler")
+  .setShaped([
+    [<ore:blockRedstone>, <ore:ingotAstralStarmetal>, <ore:blockRedstone>],
+    [<ore:ingotPigiron>, <ore:ingotManyullyn>, <ore:ingotPigiron>],
+    [<ore:blockRedstone>, <ore:ingotAstralStarmetal>, <ore:blockRedstone>]])
+  .setFluid(<liquid:coal> * 8000)
+  .setSecondaryIngredients([<ore:dustPyrotheum> * 8, <ore:dustCryotheum> * 8, <ore:dustAerotheum> * 8, <ore:dustPetrotheum> * 8, <ore:itemClayedGlowstone> * 64, <ore:itemClayedGlowstone> * 16])
+  .addTool(<ore:artisansGemCutter>, 45)
+  .addTool(<ore:artisansGrimoire>, 2)
+  .addOutput(<tconevo:material>)
   .create();

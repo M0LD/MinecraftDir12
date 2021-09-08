@@ -55,7 +55,7 @@
     {
       "name": "diamond",
       "harvestLevel": 3,
-      "maxUses": 1200,
+      "maxUses": 2600,
       "efficiency": 8.0,
       "damage": 3.0,
       "enchantability": 10,
@@ -94,7 +94,7 @@
     {
       "name": "aluminum",
       "harvestLevel": 1,
-      "maxUses": 190,
+      "maxUses": 280,
       "efficiency": 10.0,
       "damage": 1.0,
       "enchantability": 14,
@@ -224,7 +224,7 @@
     {
       "name": "steel",
       "harvestLevel": 2,
-      "maxUses": 1200,
+      "maxUses": 1800,
       "efficiency": 6.5,
       "damage": 2.5,
       "enchantability": 10,
@@ -276,7 +276,7 @@
     {
       "name": "toughalloy",
       "harvestLevel": 3,
-      "maxUses": 2200,
+      "maxUses": 4600,
       "efficiency": 10.0,
       "damage": 3.0,
       "enchantability": 15,
@@ -289,7 +289,7 @@
     {
       "name": "hardcarbon",
       "harvestLevel": 3,
-      "maxUses": 2700,
+      "maxUses": 8890,
       "efficiency": 11.0,
       "damage": 3.0,
       "enchantability": 12,
@@ -302,7 +302,7 @@
     {
       "name": "boronnitride",
       "harvestLevel": 4,
-      "maxUses": 5800,
+      "maxUses": 1305,
       "efficiency": 12.0,
       "damage": 2.5,
       "enchantability": 20,
